@@ -184,7 +184,7 @@
                               <p class="mb-0">Nom</p>
                             </div>
                             <div class="col-sm-9">
-                              <p class="text-muted mb-0">student</p>
+                              <p class="text-muted mb-0">{{ auth()->user()->name }}</p>
                             </div>
                           </div>
                           <hr>
@@ -193,7 +193,7 @@
                               <p class="mb-0">Email</p>
                             </div>
                             <div class="col-sm-8">
-                              <p class="text-muted mb-0">student@gmail.com</p>
+                              <p class="text-muted mb-0"> {{ auth()->user()->email }}</p>
                             </div>
                           </div>
                           <hr>
